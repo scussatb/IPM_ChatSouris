@@ -19,6 +19,7 @@ public class TP5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("test");
         AbstractModel model; //à instancier
         AbstractControler controler; //à instancier
         Vue v = new Vue(model,controler);
